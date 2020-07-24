@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>day4(ass4)</title>
+</head>
+<body>
+  <center>
+  <h1>simple calculator</h1>
+  
+ enter 1st number : <input type="number" id="you" placeholder="number"></input><br><br>
+ enter 2nd number : <input type="number" id="you1" placeholder="number"></input><br><br>
+           result : <input type="text" id="res" value="" disabled><br>
+             <input type="button" value="+" onclick="myadd">
+               <input type="button" value="-" onclick="mysub">
+                 <input type="button" value="*" onclick="mymul">
+                   <input type="button" value="/" onclick="mydiv">
+                     
+ <script>
+   
+   function myadd(){
+      let num1=document.getElementById("you").value;
+      let num2=document.getElementById("you1").value
+    
+     document.getElementById("res").value=num1+num2;
+    
+     
+   }
+  
+  
+     
+  
+ </script>
+   
+ </center>
+ 
+</body>
+</html>
+
